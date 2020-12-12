@@ -11,57 +11,73 @@
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        "title": "elf ring",
+        "price": 15,
+        "image": { "fields": { "file": { "url": "./images/ring-7.jpeg" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        "title": "ballerina earrings",
+        "price": 10,
+        "image": { "fields": { "file": { "url": "./images/earring-3.jpg" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
-        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        "title": "emperror bracelet",
+        "price": 16.15,
+        "image": { "fields": { "file": { "url": "./images/bracelet-9.jpeg" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
-        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        "title": "valide ring",
+        "price": 14.50,
+        "image": { "fields": { "file": { "url": "./images/ring-9.jpeg" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
-        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        "title": "wedding bracelet",
+        "price": 12.20,
+        "image": { "fields": { "file": { "url": "./images/bracelet-4.jpeg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        "title": "engagement ring",
+        "price": 25,
+        "image": { "fields": { "file": { "url": "./images/ring-10.jpeg" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
-        "price": 33.99,
-        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        "title": "sailor bracelet",
+        "price": 15.20,
+        "image": { "fields": { "file": { "url": "./images/bracelet-7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "aqua earrings",
+        "price": 13.50,
+        "image": { "fields": { "file": { "url": "./images/earring-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "sibylla earrings",
+        "price": 16,
+        "image": { "fields": { "file": { "url": "./images/earring-8.jpg" } } }
       }
     }
   ]
