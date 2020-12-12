@@ -3,9 +3,9 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
+        "title": "lion bracelet",
         "price": 10.99,
-        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/bracelet-1.jpg" } } }
       }
     },
     {
