@@ -65,14 +65,6 @@
       }
     },
     {
-      "sys": { "id": "9" },
-      "fields": {
-        "title": "aqua earrings",
-        "price": 13.50,
-        "image": { "fields": { "file": { "url": "./images/earring-2.jpeg" } } }
-      }
-    },
-    {
       "sys": { "id": "10" },
       "fields": {
         "title": "sibylla earrings",
