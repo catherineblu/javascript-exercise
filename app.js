@@ -71,7 +71,8 @@ class UI{
                 button.disabled = true
             }else{
                button.addEventListener('click',(event) => {
-                 console.log(event);  
+                event.target.innerText = "In cart";
+                event.target.disabled = true;  
                }) 
             }
         });
