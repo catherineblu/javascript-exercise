@@ -67,7 +67,12 @@ class UI{
             let id = button.dataset.id;
             let inCart = cart.find(item => item.id === id);
             if(inCart){
-                
+                button.innerText = "In cart";
+                button.disabled = true
+            }else{
+               button.addEventListener('click',(event) => {
+                 console.log(event);  
+               }) 
             }
         });
     }
