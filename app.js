@@ -89,7 +89,7 @@ class UI {
       });
     });
   }
-  setCartValue(cart){
+  setCartValues(cart){
       let tempTotal = 0;
       let itemsTotal = 0;
       cart.map(item =>{
@@ -97,6 +97,8 @@ class UI {
           itemsTotal += item.amount
       })
       cartTotal.innerText = parseFloat(tempTotal.toFixed(2))
+      cartItems.innerText = itemsTotal;
+      console.log(cartTotal,cartItems)
   }
 }
 //local storage
