@@ -2,7 +2,7 @@
 
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart");
-const clearCart = document.querySelector(".clear-btn");
+const clearCartBtn = document.querySelector(".clear-cart");
 const cartDOM = document.querySelector(".cart");
 const cartOverlay = document.querySelector(".cart-overlay");
 const cartItems = document.querySelector(".cart-items");
@@ -138,6 +138,12 @@ class UI {
     cartOverlay.classList.remove('transparentBcg');
     cartDOM.classList.remove('showCart');
   }
+  cartLogic(){
+    clearCartBtn.addEventListener('click',this.clearCart)
+  }
+  clearCart(){
+    console.log(this);
+  }
 }
 //local storage
 class Storage {
@@ -152,7 +158,7 @@ class Storage {
       localStorage.setItem('cart',JSON.stringify(cart))
   }
   static getCart(){
-    return localStorage.getItem('cart')?JSON.parse(localStorage.getItem('cart')):[];
+    return localStorage.getItem('cart')? JSON.parse(localStorage.getItem('cart')):[];
   }
 }
 document.addEventListener("DOMContentLoaded", () => {
@@ -169,5 +175,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(() => {
       ui.getBagButtons();
+      ui.cartLogic()
     });
 });
